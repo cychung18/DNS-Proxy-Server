@@ -20,7 +20,11 @@ $ nslookup "-set vc" domain.com [DNS_proxy_IP_address]
 ### Advertisement server
 
 •	Visit http://[VM_IP_ADDRESS] in a browser on your laptop.  You should see your dynamic page rendered in the browser.  
+
 •	As above, configure your laptop to use your manipulative DNS server.
+
 •	Open a browser and now visit an invalid hostname, like "jksdldkjldkjlelleeee.com"
+
 •	The browser should render a webpage, served from your advertisement server, which contains the invalid domain name.  Your browser's address bar should list the domain name you typed.
+
 •	Any valid URL, like google.com should work as normal, without any interference from your DNS proxy or advertisement server.
